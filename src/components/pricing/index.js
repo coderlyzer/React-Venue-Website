@@ -28,7 +28,7 @@ const Pricing = () => {
       >
         <div className="pricing_inner_wrapper">
           <div className="pricing_title">
-            <span>{priceState.prices[index]}</span>
+            <span>£{priceState.prices[index]}</span>
             <span>{priceState.position[index]}</span>
           </div>
           <div className="pricing_description">{priceState.desc[index]}</div>
